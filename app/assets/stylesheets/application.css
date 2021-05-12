@@ -1,15 +1,334 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.unnamed1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+#div#preload { display: none; }
+
+
+body {
+	FONT-SIZE: 14px;
+        font-COLOR: #000000; 
+        FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        line-height: normal;
+    background-image: url(fondoBios.png);
+    background-attachment: fixed;
+    background-position: 0% 0%;
+    background-repeat: no-repeat; /*no-tiling background*/
+    width: 100%;
+    height: 200%;
+    background-size: 100%;
+   /*background-color: #f8cb86;*/
+    margin: 10px;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+        font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+}
+.red {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: normal;
+
+color: red;
+}
+.black {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: normal;
+color: black;
+}
+
+table{
+margin-left: auto; margin-right: auto; padding: 0px; border: none; border: 1px solid #789DB3;
+margin: 1em 1em;
+}
+
+td {
+ font-size:13px; border: none; background-color: #BBBBBB; 
+vertical-align: middle; padding: 7px; font-weight: normal;
+}
+
+thead td {
+ font-size:13px; border: none; background-color: #CCCCCC;
+vertical-align: middle; padding: 7px; font-weight: bold;
+}
+
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+	line-height: 19px;
+	cursor: hand;
+        text-decoration: none;
+}
+a:link {
+color: #666666;
+}
+
+a:visited {
+color: #888888; 
+}
+a:hover {
+color: #000000;
+text-decoration: underline;
+}
+a:active {
+color: #000000;
+
+}
+
+
+ol li {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
+        padding-top: 0x;
+
+}
+
+
+ul li {
+        list-style-image: url(squareSmall.png);  
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
+        padding-top: 0x;
+
+}
+
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+        /*text-transform: capitalize;*/
+	text-align: center;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	/*text-transform: capitalize;*/
+	white-space: normal;
+	text-align: left;
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	/*text-transform: capitalize;*/
+	font-variant: normal;
+}
+h4 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+}
+h5 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	white-space: normal;
+	text-align: left;
+}
+
+h6 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	text-align: left;
+}
+.subtitulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #333333;
+	font-weight: bold;
+}
+.textojusti {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #333333;
+	text-align: justify;
+}
+.centro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	color: #666666;
+}
+.smallcentro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+	color: #666666;
+}
+
+.subtitunar {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF9900;
+}
+.subgris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+	line-height: 16px;
+
+}
+.centron {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+	text-align: center;
+}
+
+.centrona {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF9933;
+	text-align: center;
+}
+
+.subticen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+	text-align: right;
+
+}
+.textjusti {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #666666;
+	text-align: justify;
+
+}
+.Titulosnara {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #FF9900;
+	text-align: left;
+}
+.formulariosCopia {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: 800;
+	color: #999999;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+
+
+.numeros {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+}
+
+div.codigo {
+margin-left: auto; margin-right: auto;
+        border-style: solid;
+	border-color: navy;
+padding: .5em 2em;
+margin : 1em 0;
+}
+
+div.new
+{
+color: orange;
+font-weight: bold;
+}
+div.codigo p { margin : 0.2em } 
+
+div.ejercicio {
+margin-left: auto; margin-right: auto;
+  color: black;
+  background: #fc6;
+  border: solid #000 thin;
+  padding : .5em 1em;
+margin : 1em 0;
+}
+
+div.ejercicio p { margin : 0.2em }
+div.ejercicio ul li {
+        list-style-image: url(square.png);
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
+        padding-top: 0x;
+
+}
+ 
+#menuCITICP li {  
+display: inline;  
+} 
+    #menuCITICP li a {  
+    font-family: Verdana, Arial;  
+    font-size:12px;  
+    text-decoration: none;  
+    float:left;  
+    padding: 11px;  
+    background-color: #2175bc;  
+    color: #fff;  
+    } 
+
+#menuCITICP li a:hover {  
+background-color: #2586d7;  
+margin-top:-2px;  
+padding-bottom:12px;  
+}  
