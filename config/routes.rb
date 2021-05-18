@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :bancos
   resources :developers
   resources :projects
   root "projects#index"
