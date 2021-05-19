@@ -1,16 +1,14 @@
+require_relative 'cuenta'
+require_relative 'cliente'
+
+
 class Banco < ApplicationRecord
-  def initialize()
+  def initialize(idCliente)
     super
-    inicia sesion
-    @cliente = guardamos el id cliente
 
-    SELECT FROM cuentas WHERE idCliente= @cliente
+    @cliente = new Cliente()
+    @cuenta = new Cuenta()
 
-    @cuenta = new Cuenta(parametros obtenidos de la base de datos)
-
-    @cuenta.prestamo.id_cliente
-
-    @cuenta.prestamo
   end
 
   def comprobarDeudas
