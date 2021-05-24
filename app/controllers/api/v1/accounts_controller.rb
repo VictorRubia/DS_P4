@@ -7,7 +7,7 @@ skip_before_action :verify_authenticity_token
 def show
       @project = Account.find_by(id: params[:id])
       if (@project!=nil)
-        render json: @project, status: :ok, :include => [:cards, :loans]
+        render json: @project, status: :ok, :include => [:cards, :loans, :requests, :transfers, :investments, :transactions]
   else
        render json: :nothing, status: :not_found
     end
