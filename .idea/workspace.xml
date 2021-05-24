@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login básico añadido">
-      <change beforePath="$PROJECT_DIR$/app/controllers/cards_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cards_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210524201701_add_concepto_to_loans.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/loans_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/loans_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/loans/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/loans/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/loans/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/loans/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/loans/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/loans/show.html.erb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="">
       <change beforePath="$PROJECT_DIR$/app/models/Tarjetas.rb" beforeDir="false" />
@@ -200,7 +205,7 @@
       <workItem from="1621681109671" duration="20000" />
       <workItem from="1621791936429" duration="6420000" />
       <workItem from="1621846655427" duration="5375000" />
-      <workItem from="1621859903211" duration="5770000" />
+      <workItem from="1621859903211" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="Seminario 11">
       <created>1620816320244</created>
@@ -307,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621874837471</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Login básico añadido">
+      <created>1621874877875</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621874877875</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
