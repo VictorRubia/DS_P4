@@ -64,6 +64,6 @@ class CardsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def card_params
-      params.require(:card).permit(:number, :account_id, :fecha, :tipo)
+      params.require(:card).permit(:number, :account_id, :fecha, :tipo, :cvv)
     end
 end
