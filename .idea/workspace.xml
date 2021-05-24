@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login básico añadido">
-      <change afterPath="$PROJECT_DIR$/db/migrate/20210524155848_cambiar_decimal_accounts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20210524163349_add_fechay_tipo_card.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/03697a55-207c-46cc-80e1-c67a0a5a8eb9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/03697a55-207c-46cc-80e1-c67a0a5a8eb9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/cards_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cards_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cards/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cards/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210523184819_create_accounts.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210523184819_create_accounts.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cards/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cards/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cards/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cards/show.html.erb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="">
       <change beforePath="$PROJECT_DIR$/app/models/Tarjetas.rb" beforeDir="false" />
@@ -207,7 +202,7 @@
       <workItem from="1621681109671" duration="20000" />
       <workItem from="1621791936429" duration="6420000" />
       <workItem from="1621846655427" duration="5375000" />
-      <workItem from="1621859903211" duration="5131000" />
+      <workItem from="1621859903211" duration="5248000" />
     </task>
     <task id="LOCAL-00001" summary="Seminario 11">
       <created>1620816320244</created>
@@ -293,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621867343828</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Login básico añadido">
+      <created>1621874257034</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621874257034</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
