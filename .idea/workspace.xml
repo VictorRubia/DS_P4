@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login básico añadido">
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210524164542_add_cvv_to_cards.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cards/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cards/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/cards/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cards/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/cards/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cards/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="">
       <change beforePath="$PROJECT_DIR$/app/models/Tarjetas.rb" beforeDir="false" />
@@ -202,7 +205,7 @@
       <workItem from="1621681109671" duration="20000" />
       <workItem from="1621791936429" duration="6420000" />
       <workItem from="1621846655427" duration="5375000" />
-      <workItem from="1621859903211" duration="5248000" />
+      <workItem from="1621859903211" duration="5722000" />
     </task>
     <task id="LOCAL-00001" summary="Seminario 11">
       <created>1620816320244</created>
@@ -295,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621874257034</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Login básico añadido">
+      <created>1621874355504</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621874355504</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

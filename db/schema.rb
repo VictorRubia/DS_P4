@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_24_163349) do
+ActiveRecord::Schema.define(version: 2021_05_24_164542) do
 
   create_table "accounts", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 2021_05_24_163349) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "fecha"
     t.string "tipo"
+    t.integer "cvv"
     t.index ["account_id"], name: "index_cards_on_account_id"
   end
 
