@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  tipo: 1
   id_objetivo: 1
-  cliente: one
+  tipo: 1
+  solved: 1
+  account: one
 
 two:
-  tipo: 1
   id_objetivo: 1
-  cliente: two
+  tipo: 1
+  solved: 1
+  account: two

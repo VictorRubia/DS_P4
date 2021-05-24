@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id objetivo:</strong>
+  <%= @request.id_objetivo %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @request.tipo %>
+</p>
+
+<p>
+  <strong>Solved:</strong>
+  <%= @request.solved %>
+</p>
+
+<p>
+  <strong>Account:</strong>
+  <%= @request.account_id %>
+</p>
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>
