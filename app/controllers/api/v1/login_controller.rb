@@ -5,7 +5,7 @@ module Api
       skip_before_action :verify_authenticity_token
 
       def show
-        @project = Account.find_by(id: params[:id])
+        @project = Account.find_by_dni(params[:id])
         if (@project!=nil)
           render json: @project, status: :ok, :only => [:id, :dni, :password]
         else
