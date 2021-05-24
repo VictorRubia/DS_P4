@@ -922,7 +922,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="293" parent="277" name="nomina">
       <Position>5</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="294" parent="277" name="iban">
       <Position>6</Position>
@@ -930,7 +930,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="295" parent="277" name="amount">
       <Position>7</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="296" parent="277" name="created_at">
       <Position>8</Position>
@@ -1094,7 +1094,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="329" parent="282" name="amount">
       <Position>2</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="330" parent="282" name="meses">
       <Position>3</Position>
@@ -1102,7 +1102,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="331" parent="282" name="interes">
       <Position>4</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="332" parent="282" name="account_id">
       <Position>5</Position>
@@ -1145,7 +1145,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="340" parent="283" name="amount">
       <Position>2</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="341" parent="283" name="meses">
       <Position>3</Position>
@@ -1153,7 +1153,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="342" parent="283" name="interes">
       <Position>4</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="343" parent="283" name="account_id">
       <Position>5</Position>
@@ -1282,7 +1282,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="369" parent="287" name="amount">
       <Position>2</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="370" parent="287" name="account_id">
       <Position>3</Position>
@@ -1325,7 +1325,7 @@ DS5|schema||DS5||UPDATE|G</Grants>
     </column>
     <column id="378" parent="288" name="amount">
       <Position>2</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>decimal(10,2 digit)|0s</DataType>
     </column>
     <column id="379" parent="288" name="account_id">
       <Position>3</Position>

@@ -4,7 +4,7 @@ class CreateAccounts < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :dni
       t.string :password
-      t.decimal :nomina
+      t.decimal :nomina, :precision => 5, :scale => 5
       t.string :iban
       t.decimal :amount
 

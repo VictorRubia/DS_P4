@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_24_112603) do
+ActiveRecord::Schema.define(version: 2021_05_24_163349) do
 
   create_table "accounts", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
     t.string "dni"
     t.string "password"
-    t.decimal "nomina", precision: 10
+    t.decimal "nomina", precision: 10, scale: 2
     t.string "iban"
-    t.decimal "amount", precision: 10
+    t.decimal "amount", precision: 10, scale: 2
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(version: 2021_05_24_112603) do
     t.bigint "account_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "fecha"
+    t.string "tipo"
     t.index ["account_id"], name: "index_cards_on_account_id"
   end
 
@@ -49,9 +51,9 @@ ActiveRecord::Schema.define(version: 2021_05_24_112603) do
   end
 
   create_table "investments", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.decimal "amount", precision: 10
+    t.decimal "amount", precision: 10, scale: 2
     t.integer "meses"
-    t.decimal "interes", precision: 10
+    t.decimal "interes", precision: 10, scale: 2
     t.bigint "account_id", null: false
     t.string "concepto"
     t.datetime "created_at", precision: 6, null: false
@@ -60,9 +62,9 @@ ActiveRecord::Schema.define(version: 2021_05_24_112603) do
   end
 
   create_table "loans", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.decimal "amount", precision: 10
+    t.decimal "amount", precision: 10, scale: 2
     t.integer "meses"
-    t.decimal "interes", precision: 10
+    t.decimal "interes", precision: 10, scale: 2
     t.bigint "account_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -88,7 +90,7 @@ ActiveRecord::Schema.define(version: 2021_05_24_112603) do
   end
 
   create_table "transactions", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.decimal "amount", precision: 10
+    t.decimal "amount", precision: 10, scale: 2
     t.bigint "account_id", null: false
     t.string "concepto"
     t.datetime "created_at", precision: 6, null: false
@@ -97,7 +99,7 @@ ActiveRecord::Schema.define(version: 2021_05_24_112603) do
   end
 
   create_table "transfers", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.decimal "amount", precision: 10
+    t.decimal "amount", precision: 10, scale: 2
     t.bigint "account_id"
     t.bigint "account2_id"
     t.string "concepto"
