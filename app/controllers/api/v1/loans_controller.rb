@@ -48,7 +48,7 @@ module Api
       end
       private
       def account_params
-        params.require(:loan).permit(:amount, :meses, :interes, :account_id)
+        params.require(:loan).permit(:amount, :meses, :interes, :account_id, :concepto)
       end
     end
   end
