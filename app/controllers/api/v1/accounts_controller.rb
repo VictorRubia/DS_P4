@@ -15,7 +15,6 @@ end
 
 def index
         render json: Account.all, status: :ok, :include => [:cards, :loans, :requests, :transfers, :investments, :transactions]
-        #, include: [:client]
 end
 
 def update
@@ -48,7 +47,7 @@ def destroy
 end
 private
 def project_params
-      params.require(:project).permit(:name, :team, :info)
+      params.require(:project).permit(:name, :dni, :password, :nomina, :iban, :amount)
 end
 end
 end
