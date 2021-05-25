@@ -47,7 +47,7 @@ def destroy
 end
 private
 def account_params
-    params.require(:account).permit(:name, :dni, :password, :amount, :iban)
+    params.require(:account).permit(:name, :dni, :password, :amount, :iban, :nomina)
 end
 end
 end
