@@ -9,6 +9,7 @@
       <th>Meses</th>
       <th>Interes</th>
       <th>Account</th>
+      <th>Concepto</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -20,6 +21,7 @@
         <td><%= investment.meses %></td>
         <td><%= investment.interes %></td>
         <td><%= investment.account_id %></td>
+        <td><%= investment.concepto %></td>
         <td><%= link_to 'Show', investment %></td>
         <td><%= link_to 'Edit', edit_investment_path(investment) %></td>
         <td><%= link_to 'Destroy', investment, method: :delete, data: { confirm: 'Are you sure?' } %></td>

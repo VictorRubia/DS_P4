@@ -20,5 +20,10 @@
   <%= @investment.account_id %>
 </p>
 
+<p>
+  <strong>Concepto:</strong>
+  <%= @investment.concepto %>
+</p>
+
 <%= link_to 'Edit', edit_investment_path(@investment) %> |
 <%= link_to 'Back', investments_path %>
