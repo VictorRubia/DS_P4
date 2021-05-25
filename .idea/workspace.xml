@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añado api loans">
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/transactions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añado api transactions">
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="">
       <change beforePath="$PROJECT_DIR$/app/models/Tarjetas.rb" beforeDir="false" />
@@ -202,7 +201,7 @@
       <workItem from="1621791936429" duration="6420000" />
       <workItem from="1621846655427" duration="5375000" />
       <workItem from="1621859903211" duration="12820000" />
-      <workItem from="1621949279985" duration="3669000" />
+      <workItem from="1621949279985" duration="3734000" />
     </task>
     <task id="LOCAL-00001" summary="Seminario 11">
       <created>1620816320244</created>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621942021654</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Añado api transactions">
+      <created>1621955140260</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1621955140260</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,6 +459,7 @@
     <MESSAGE value="Añado a la api las demas clases" />
     <MESSAGE value="Añado api update accounts" />
     <MESSAGE value="Añado api loans" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añado api loans" />
+    <MESSAGE value="Añado api transactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añado api transactions" />
   </component>
 </project>
