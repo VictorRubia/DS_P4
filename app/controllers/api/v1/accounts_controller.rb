@@ -18,7 +18,7 @@ def index
 end
 
 def update
- @project = Project.find(params[:id])
+ @project = Account.find(params[:id])
 
   if @project.update(project_params)
         render json: @project, status: :ok
@@ -28,7 +28,7 @@ def update
 end
 
 def create
-    @project = Project.new(project_params)
+    @project = Account.new(project_params)
 
       if @project.save
         render json: @project, status: :created
@@ -38,7 +38,7 @@ def create
 end
 
 def destroy
-    @project = Project.find(params[:id])
+    @project = Account.find(params[:id])
     if @project.destroy
       render json: :nothing, status: :ok
     else
