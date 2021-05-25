@@ -17,6 +17,8 @@ Rails.application.routes.draw do
       resources :login
       resources :loans
       resources :transactions
+      resources :requests
+
     end
   end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
