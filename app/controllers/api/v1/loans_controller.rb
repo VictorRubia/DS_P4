@@ -6,14 +6,14 @@ module Api
       def show
         @loan = Loan.find_by(id: params[:id])
         if (@loan!=nil)
-          render json: @loan, status: :ok, :include => [:cards, :loans, :requests, :transfers, :investments, :transactions]
+          render json: @loan, status: :ok
         else
           render json: :nothing, status: :not_found
         end
       end
 
       def index
-        render json: Loan.all, status: :ok, :include => [:cards, :loans, :requests, :transfers, :investments, :transactions]
+        render json: Loan.all, status: :ok
       end
 
       def update
