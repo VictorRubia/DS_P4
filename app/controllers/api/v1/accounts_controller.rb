@@ -5,9 +5,9 @@ module V1
 skip_before_action :verify_authenticity_token
 
 def show
-      @project = Account.find_by(id: params[:id])
-      if (@project!=nil)
-        render json: @project, status: :ok, :include => [:cards, :loans, :requests, :transfers, :investments, :transactions]
+  @account = Account.find_by(id: params[:id])
+      if (@account!=nil)
+        render json: @account, status: :ok, :include => [:cards, :loans, :requests, :transfers, :investments, :transactions]
   else
        render json: :nothing, status: :not_found
     end
@@ -18,36 +18,36 @@ def index
 end
 
 def update
- @project = Account.find(params[:id])
+  @account = Account.find(params[:id])
 
-  if @project.update(project_params)
-        render json: @project, status: :ok
+  if @account.update(account_params)
+        render json: @account, status: :ok
       else
-        render json: @project.errors, status: :unprocessable_entity
+        render json: @account.errors, status: :unprocessable_entity
       end
 end
 
 def create
-    @project = Account.new(project_params)
+  @account = Account.new(account_params)
 
-      if @project.save
-        render json: @project, status: :created
+      if @account.save
+        render json: @account, status: :created
       else
-        render json: @project.errors, status: :unprocessable_entity
+        render json: @account.errors, status: :unprocessable_entity
       end
 end
 
 def destroy
-    @project = Account.find(params[:id])
-    if @project.destroy
+  @account = Account.find(params[:id])
+    if @account.destroy
       render json: :nothing, status: :ok
     else
       render json: :nothing, status: :unprocessable_entity
     end
 end
 private
-def project_params
-      params.require(:account).permit(:name, :dni, :password)
+def account_params
+    params.require(:account).permit(:name, :dni, :password, :amount, :iban)
 end
 end
 end
