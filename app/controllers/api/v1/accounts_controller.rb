@@ -47,7 +47,7 @@ def destroy
 end
 private
 def project_params
-      params.require(:accounts).permit(:name, :dni, :password)
+      params.require(:account).permit(:name, :dni, :password)
 end
 end
 end
