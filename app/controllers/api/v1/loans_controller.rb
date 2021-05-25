@@ -1,7 +1,7 @@
 
 module Api
   module V1
-    class AccountsController < ApplicationController
+    class LoansController < ApplicationController
 
       def show
         @loan = Loan.find_by(id: params[:id])
