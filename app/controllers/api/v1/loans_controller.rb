@@ -3,6 +3,8 @@ module Api
   module V1
     class LoansController < ApplicationController
 
+      skip_before_action :verify_authenticity_token
+
       def show
         @loan = Loan.find_by(id: params[:id])
         if (@loan!=nil)
