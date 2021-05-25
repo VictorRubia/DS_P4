@@ -1,7 +1,7 @@
 
 module Api
   module V1
-    class TransactionsController < ApplicationController
+    class RequestsController < ApplicationController
 
       skip_before_action :verify_authenticity_token
 
