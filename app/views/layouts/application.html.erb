@@ -11,14 +11,32 @@
   </head>
 
   <body>
-    <%= link_to "Cuentas", root_path %>
-    <%= link_to "Tarjetas", :cards %>
-    <%= link_to "Préstamos", :loans %>
-    <%= link_to "Inversiones", :investments %>
-    <%= link_to "Solicitudes", :requests %>
-    <%= link_to "Movimientos", :transactions %>
-    <%= link_to "Transferencias", :transfers %>
-    <%= link_to "Empleados", :employees %>
+
+  <div class="Cabecera">
+    <h1>iBank</h1>
+  </div>
+
+    <%#= link_to "Cuentas", root_path %>
+    <%#= link_to "Tarjetas", :cards %>
+    <%#= link_to "Préstamos", :loans %>
+    <%#= link_to "Inversiones", :investments %>
+    <%#= link_to "Solicitudes", :requests %>
+    <%#= link_to "Movimientos", :transactions %>
+    <%#= link_to "Transferencias", :transfers %>
+    <%#= link_to "Empleados", :employees %>
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <div>
+      <% if signed_in? %>
+        <%= link_to "Salir", destroy_user_session_path, method: :delete %>
+      <% else %>
+        <%= link_to "Registrarse", new_user_registration_path %>
+        <%= link_to "Ingresar", new_user_session_path %>
+      <% end %>
+    </div>
+
     <%= yield %>
   </body>
 </html>
