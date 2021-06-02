@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'paginicio/new'
+  get 'paginicio/create'
   get 'homepage/new'
   get 'homepage/create'
   get 'login/new'
@@ -14,7 +16,7 @@ Rails.application.routes.draw do
   resources :accounts
   resources :developers
   resources :projects
-  root "homepage#index"
+  root "paginicio#index"
 
   namespace :api, defaults: { format: 'json' } do
     namespace :v1 do

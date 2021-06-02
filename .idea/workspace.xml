@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login de la web">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/login_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/login_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/homepage/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/login/create.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/login/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/login/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/login_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/paginicio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/paginicio_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/paginicio_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/paginicio/create.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/paginicio/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/paginicio_controller_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/accounts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accounts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/homepage/index.html.erb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
@@ -66,17 +61,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm" value="WSL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/homepage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/paginicio" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/paginicio" />
       <recent name="$PROJECT_DIR$/app/views/homepage" />
       <recent name="$PROJECT_DIR$/app/views/login" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/views/layouts" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\public" />
@@ -245,7 +240,7 @@
       <workItem from="1622034098537" duration="827000" />
       <workItem from="1622044062576" duration="169000" />
       <workItem from="1622546339601" duration="17354000" />
-      <workItem from="1622627813840" duration="686000" />
+      <workItem from="1622627813840" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary="Seminario 11">
       <created>1620816320244</created>
@@ -569,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622557730252</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Login de la web">
+      <created>1622629427994</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1622629427995</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
