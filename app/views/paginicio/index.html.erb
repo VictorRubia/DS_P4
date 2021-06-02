@@ -21,6 +21,34 @@
 
       <article class="evento">
         <p>Solicitud Tarjeta 1</p>
+        <table>
+          <thead>
+          <tr>
+            <th>Number</th>
+            <th>Account</th>
+            <th>Fecha</th>
+            <th>Tipo</th>
+            <th>CVV</th>
+            <th colspan="3"></th>
+          </tr>
+          </thead>
+
+          <tbody>
+
+          <% @cards = Card.all%> <% @cards.each do |card| %>
+            <tr>
+              <td><%= card.number %></td>
+              <td><%= card.account_id %></td>
+              <td><%= card.fecha %></td>
+              <td><%= card.tipo %></td>
+              <td><%= card.cvv %></td>
+              <td><%= link_to 'Show', card %></td>
+              <td><%= link_to 'Edit', edit_card_path(card) %></td>
+              <td><%= link_to 'Destroy', card, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+          </tbody>
+        </table>
       </article>
 
       <article class="evento">
