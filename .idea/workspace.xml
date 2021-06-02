@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login de la web">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/paginicio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/paginicio_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/paginicio_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/paginicio/create.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/paginicio/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/paginicio_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/homepage/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +231,7 @@
       <workItem from="1622034098537" duration="827000" />
       <workItem from="1622044062576" duration="169000" />
       <workItem from="1622546339601" duration="17354000" />
-      <workItem from="1622627813840" duration="1778000" />
+      <workItem from="1622627813840" duration="2014000" />
     </task>
     <task id="LOCAL-00001" summary="Seminario 11">
       <created>1620816320244</created>
@@ -571,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622629427995</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Login de la web">
+      <created>1622630544486</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1622630544486</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
