@@ -1,0 +1,146 @@
+<p id="notice"><%= notice %></p>
+
+<% if signed_in? %>
+  <%= link_to "Salir", destroy_user_session_path, method: :delete %>
+
+  <div class="contenedor_eventos">
+
+    <div class="fila_eventos">
+
+      <article class="evento">
+        <h1>Tarjetas</h1>
+      </article>
+
+      <article class="evento">
+        <h1>Préstamos</h1>
+      </article>
+
+      <article class="evento">
+        <h1>Usuarios</h1>
+      </article>
+
+      <article class="evento">
+        <p>Solicitud Tarjeta 1</p>
+      </article>
+
+      <article class="evento">
+        <p>Solicitud Préstamo 1</p>
+      </article>
+
+      <article class="evento">
+        <h3>Dar De Alta Un Usuario</h3>
+        <br>
+
+        <div class="cuerpo">
+
+          <%= form_with(model: @account = Account.new) do |form| %>
+
+            <% if @account.errors.any? %>
+              <div id="error_explanation">
+                <h2><%= pluralize(@account.errors.count, "error") %> prohibited this account from being saved:</h2>
+
+                <ul>
+                  <% @account.errors.each do |error| %>
+                    <li><%= error.full_message %></li>
+                  <% end %>
+                </ul>
+              </div>
+            <% end %>
+
+            <div class="field">
+              <%= form.label :name %>
+              <%= form.text_field :name %>
+            </div>
+
+            <div class="field">
+              <%= form.label :dni %>
+              <%= form.text_field :dni %>
+            </div>
+
+            <div class="field">
+              <%= form.label :password %>
+              <%= form.text_field :password %>
+            </div>
+
+            <div class="field">
+              <%= form.label :nomina %>
+              <%= form.text_field :nomina %>
+            </div>
+
+            <div class="field">
+              <%= form.label :iban %>
+              <%= form.text_field :iban %>
+            </div>
+
+            <div class="field">
+              <%= form.label :amount %>
+              <%= form.text_field :amount %>
+            </div>
+
+            <div class="actions">
+              <%= form.submit %>
+            </div>
+          <% end %>
+
+
+        </div>
+      </article>
+
+      <article class="evento">
+        <p>Solicitud Tarjeta 2</p>
+      </article>
+
+      <article class="evento">
+        <p>Solicitud Préstamo 2</p>
+      </article>
+
+      <article class="evento">
+        <p>Perfil Usuario 'y'</p>
+      </article>
+
+      <article class="evento">
+        <p>Solicitud Tarjeta 3</p>
+      </article>
+
+      <article class="evento">
+        <p>Solicitud Préstamo 3</p>
+      </article>
+
+      <article class="evento">
+        <p>Perfil Usuario 'z'</p>
+      </article>
+
+      <article class="evento">
+        <p></p>
+      </article>
+
+      <article class="evento">
+        <p></p>
+      </article>
+
+      <article class="evento">
+
+
+      </article>
+
+    </div>
+
+
+  </div>
+
+
+  </div>
+
+
+
+<% else %>
+  <div class="login">
+    <h1>Señor@ empleado@, le damos la bienvenida a la web de gestión de iBank.</h1>
+    <br>
+    <h1><button><%= link_to "Inicia Sesión", new_user_session_path %></button></h1>
+
+  </div>
+<% end %>
+
+
+

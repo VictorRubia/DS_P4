@@ -7,36 +7,86 @@
 	font-variant: normal;
 }
 
-.Cabecera {
-    width: 100%;
-    height: 30%;
-    background-color: dodgerblue;
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#div#preload { display: none; }
-
-
 body {
-	FONT-SIZE: 14px;
-        font-COLOR: #000000; 
-        FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-        font-weight: normal;
-        font-style: normal;
-        line-height: normal;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
     background-attachment: fixed;
-    background-color: #BBBBBB;
+    background-color: navajowhite;
     background-position: 0% 0%;
     background-repeat: no-repeat; /*no-tiling background*/
     width: 100%;
-    height: 200%;
-    background-size: 100%;
-   /*background-color: #f8cb86;*/
-    margin: 10px;
+    height: 90%;
+    margin: 2em;
+    /*background-color: #f8cb86;*/
 }
+
+.Cabecera {
+    width: 100%;
+    height: 10em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+}
+
+.Cabecera img {
+    float: left;
+    margin-top: 1em;
+    width: 15%;
+    margin-left: 5em;
+}
+
+.colorCabecera{
+    width: 90%;
+    height: 10em;  
+    background-color: royalblue;
+}
+
+.contenedor_eventos {
+
+    width: 100%;
+    /*background-color: #730E15;*/
+    float: left;
+    padding-top: 2em;
+
+}
+
+.fila_eventos {
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 1em;
+    padding-top: 0.2em;
+    text-align: center;
+
+}
+
+.evento {
+    padding-top: 0.5em;
+}
+
+.fila_eventos a{
+    
+}
+
+.cuerpo {
+    width: 100%;
+    /*background-color: greenyellow;*/
+    float:left;
+}
+
+.login {
+    width: 100%;
+    margin-top: 3em;
+    float: left;
+    text-align: center;
+}
+
+
+#div#preload { display: none; }
 
 p {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -69,7 +119,7 @@ margin: 1em 1em;
 }
 
 td {
- font-size:13px; border: none; background-color: #BBBBBB; 
+ font-size:13px; border: none; background-color: #BBBBBB;
 vertical-align: middle; padding: 7px; font-weight: normal;
 }
 

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'homepage/new'
+  get 'homepage/create'
+  get 'login/new'
+  get 'login/create'
   devise_for :users
   resources :transfers
   resources :employees
@@ -10,7 +14,7 @@ Rails.application.routes.draw do
   resources :accounts
   resources :developers
   resources :projects
-  root "accounts#index"
+  root "homepage#index"
 
   namespace :api, defaults: { format: 'json' } do
     namespace :v1 do
