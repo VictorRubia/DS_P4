@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login de la web">
+    <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añado api transfers">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DS_P4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DS_P4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/requests_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Tarjetas.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpacker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpacker.yml" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +64,7 @@
     <property name="credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm" value="WSL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -239,6 +246,7 @@
       <workItem from="1622642509690" duration="2144000" />
       <workItem from="1622645136331" duration="10816000" />
       <workItem from="1622747290182" duration="13000" />
+      <workItem from="1622748862620" duration="1477000" />
     </task>
     <task id="LOCAL-00006" summary="18.05.2021">
       <created>1621351861384</created>
