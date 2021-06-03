@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añadida gema">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascript/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,13 +240,6 @@
       <workItem from="1622645136331" duration="10816000" />
       <workItem from="1622747290182" duration="13000" />
       <workItem from="1622748862620" duration="1762000" />
-    </task>
-    <task id="LOCAL-00008" summary="Api Lista">
-      <created>1621851733465</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1621851733465</updated>
     </task>
     <task id="LOCAL-00009" summary="Api Lista">
       <created>1621859953936</created>
@@ -581,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622755663462</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Añadida gema">
+      <created>1622755720727</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1622755720727</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
