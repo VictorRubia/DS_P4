@@ -241,13 +241,6 @@
       <workItem from="1622747290182" duration="13000" />
       <workItem from="1622748862620" duration="1762000" />
     </task>
-    <task id="LOCAL-00009" summary="Api Lista">
-      <created>1621859953936</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1621859953937</updated>
-    </task>
     <task id="LOCAL-00010" summary="Api Lista">
       <created>1621860120649</created>
       <option name="number" value="00010" />
@@ -584,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622755720727</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Añadida gema">
+      <created>1622755945276</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1622755945276</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
