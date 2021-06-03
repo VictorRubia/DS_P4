@@ -4,6 +4,9 @@
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login de la web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,14 +236,9 @@
       <workItem from="1622044062576" duration="169000" />
       <workItem from="1622546339601" duration="17354000" />
       <workItem from="1622627813840" duration="3723000" />
-      <workItem from="1622633962157" duration="760000" />
-    </task>
-    <task id="LOCAL-00003" summary="Second commit">
-      <created>1620836964519</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1620836964519</updated>
+      <workItem from="1622633962157" duration="3648000" />
+      <workItem from="1622642509690" duration="2144000" />
+      <workItem from="1622645136331" duration="5816000" />
     </task>
     <task id="LOCAL-00004" summary="Commit Victor">
       <created>1620837585888</created>
@@ -578,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622634523126</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Login de la web">
+      <created>1622634730936</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1622634730936</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,6 +621,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Login de la web" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DS_P4@Development__DS_P4.rcov" NAME="Development: DS_P4 Coverage Results" MODIFIED="1622634131420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DS_P4" />
+    <SUITE FILE_PATH="coverage/DS_P4@Development__DS_P4.rcov" NAME="Development: DS_P4 Coverage Results" MODIFIED="1622645448847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DS_P4" />
   </component>
 </project>

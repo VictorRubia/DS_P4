@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   resources :accounts
   resources :developers
   resources :projects
+  resources :paginicio
   root "paginicio#index"
 
   namespace :api, defaults: { format: 'json' } do
@@ -28,6 +29,7 @@ Rails.application.routes.draw do
       resources :investments
       resources :cards
       resources :transfers
+      resources :paginicio
     end
   end
 

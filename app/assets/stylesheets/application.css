@@ -67,10 +67,11 @@ body {
 
 .evento {
     padding-top: 0.5em;
+    text-align: center;
 }
 
 .fila_eventos a{
-    
+    text-align: center;
 }
 
 .cuerpo {
@@ -84,6 +85,17 @@ body {
     margin-top: 3em;
     float: left;
     text-align: center;
+}
+
+table{
+    border: inset black;
+    margin: 0.5em;
+    text-align: center;
+}
+
+td {
+    font-size:13px; border: none; background-color: #BBBBBB;
+    vertical-align: middle; padding: 7px; font-weight: normal;
 }
 
 
@@ -114,15 +126,7 @@ color: red;
 color: black;
 }
 
-table{
-margin-left: auto; margin-right: auto; padding: 0px; border: none; border: 1px solid #789DB3;
-margin: 1em 1em;
-}
 
-td {
- font-size:13px; border: none; background-color: #BBBBBB;
-vertical-align: middle; padding: 7px; font-weight: normal;
-}
 
 thead td {
  font-size:13px; border: none; background-color: #CCCCCC;

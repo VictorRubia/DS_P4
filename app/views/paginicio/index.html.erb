@@ -20,136 +20,91 @@
       </article>
 
       <article class="evento">
-        <p>Solicitud Tarjeta 1</p>
         <table>
           <thead>
           <tr>
-            <th>Number</th>
-            <th>Account</th>
-            <th>Fecha</th>
-            <th>Tipo</th>
-            <th>CVV</th>
+            <th>Id Request</th>
+            <th>Id Cuenta</th>
             <th colspan="3"></th>
           </tr>
           </thead>
 
           <tbody>
+          <% @requests = Request.all%>
+          <% @requests.each do |request| %>
+            <% if request.tipo == 0 &&  request.solved == 0 %>
 
-          <% @cards = Card.all%> <% @cards.each do |card| %>
             <tr>
-              <td><%= card.number %></td>
-              <td><%= card.account_id %></td>
-              <td><%= card.fecha %></td>
-              <td><%= card.tipo %></td>
-              <td><%= card.cvv %></td>
-              <td><%= link_to 'Show', card %></td>
-              <td><%= link_to 'Edit', edit_card_path(card) %></td>
-              <td><%= link_to 'Destroy', card, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+              <td><%= request.id_objetivo %></td>
+              <td><%= request.account_id %></td>
+              <td><%= link_to 'Show', request %></td>
+              <td><%= link_to 'Edit', edit_request_path(request) %></td>
+              <td><%= link_to 'Destroy', request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
             </tr>
+            <% end %>
           <% end %>
           </tbody>
         </table>
       </article>
 
       <article class="evento">
-        <p>Solicitud Préstamo 1</p>
-      </article>
+        <table>
+          <thead>
+          <tr>
+            <th>Id Request</th>
+            <th>Id Cuenta</th>
+            <th colspan="3"></th>
+          </tr>
+          </thead>
 
-      <article class="evento">
-        <h3>Dar De Alta Un Usuario</h3>
-        <br>
+          <tbody>
+          <% @requests = Request.all%>
+          <% @requests.each do |request| %>
+            <% if request.tipo == 1 &&  request.solved == 0 %>
 
-        <div class="cuerpo">
-
-          <%= form_with(model: @account = Account.new) do |form| %>
-
-            <% if @account.errors.any? %>
-              <div id="error_explanation">
-                <h2><%= pluralize(@account.errors.count, "error") %> prohibited this account from being saved:</h2>
-
-                <ul>
-                  <% @account.errors.each do |error| %>
-                    <li><%= error.full_message %></li>
-                  <% end %>
-                </ul>
-              </div>
+              <tr>
+                <td><%= request.id_objetivo %></td>
+                <td><%= request.account_id %></td>
+                <td><%= link_to 'Show', request %></td>
+                <td><%= link_to 'Edit', edit_request_path(request) %></td>
+                <td><%= link_to 'Destroy', request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+              </tr>
             <% end %>
-
-            <div class="field">
-              <%= form.label :name %>
-              <%= form.text_field :name %>
-            </div>
-
-            <div class="field">
-              <%= form.label :dni %>
-              <%= form.text_field :dni %>
-            </div>
-
-            <div class="field">
-              <%= form.label :password %>
-              <%= form.text_field :password %>
-            </div>
-
-            <div class="field">
-              <%= form.label :nomina %>
-              <%= form.text_field :nomina %>
-            </div>
-
-            <div class="field">
-              <%= form.label :iban %>
-              <%= form.text_field :iban %>
-            </div>
-
-            <div class="field">
-              <%= form.label :amount %>
-              <%= form.text_field :amount %>
-            </div>
-
-            <div class="actions">
-              <%= form.submit %>
-            </div>
           <% end %>
-
-
-        </div>
-      </article>
-
-      <article class="evento">
-        <p>Solicitud Tarjeta 2</p>
-      </article>
-
-      <article class="evento">
-        <p>Solicitud Préstamo 2</p>
-      </article>
-
-      <article class="evento">
-        <p>Perfil Usuario 'y'</p>
-      </article>
-
-      <article class="evento">
-        <p>Solicitud Tarjeta 3</p>
-      </article>
-
-      <article class="evento">
-        <p>Solicitud Préstamo 3</p>
-      </article>
-
-      <article class="evento">
-        <p>Perfil Usuario 'z'</p>
-      </article>
-
-      <article class="evento">
-        <p></p>
-      </article>
-
-      <article class="evento">
-        <p></p>
+          </tbody>
+        </table>
       </article>
 
       <article class="evento">
 
+        <button><%= link_to "Alta", new_account_path %></button>
 
+        <br><br>
+
+        <table>
+          <thead>
+          <tr>
+            <th>Name</th>
+            <th>Dni</th>
+            <th colspan="3"></th>
+          </tr>
+          </thead>
+
+          <tbody>
+          <% @accounts = Account.all %>
+          <% @accounts.each do |account| %>
+            <tr>
+              <td><%= account.name %></td>
+              <td><%= account.dni %></td>
+              <td><%= link_to 'Ver', account %></td>
+              <td><%= link_to 'Editar', edit_account_path(account) %></td>
+              <td><%= link_to 'Eliminar', account, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+          </tbody>
+        </table>
       </article>
+
 
     </div>
 
