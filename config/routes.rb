@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   resources :developers
   resources :projects
   resources :paginicio
-  post '/DS5/ajax/sum' => 'accounts#aceptar_prestamo'
+  post '/ajax/sum' => 'accounts#aceptar_prestamo'
   root "paginicio#index"
 
   namespace :api, defaults: { format: 'json' } do
