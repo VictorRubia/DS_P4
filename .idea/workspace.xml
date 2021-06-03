@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Login de la web">
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/requests_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,14 +237,8 @@
       <workItem from="1622627813840" duration="3723000" />
       <workItem from="1622633962157" duration="3648000" />
       <workItem from="1622642509690" duration="2144000" />
-      <workItem from="1622645136331" duration="6095000" />
-    </task>
-    <task id="LOCAL-00005" summary="Commit Victor">
-      <created>1620838186226</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1620838186226</updated>
+      <workItem from="1622645136331" duration="10816000" />
+      <workItem from="1622747290182" duration="13000" />
     </task>
     <task id="LOCAL-00006" summary="18.05.2021">
       <created>1621351861384</created>
@@ -579,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622717656271</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Login de la web">
+      <created>1622717925414</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1622717925414</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

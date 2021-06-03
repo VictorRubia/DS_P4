@@ -34,6 +34,15 @@ class RequestsController < ApplicationController
     end
   end
 
+  helper_method :aceptar
+
+  def aceptar
+
+    @request.solved = 1
+
+
+  end
+
   # PATCH/PUT /requests/1 or /requests/1.json
   def update
     respond_to do |format|
