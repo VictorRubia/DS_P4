@@ -4,7 +4,8 @@ class AccountsController < ApplicationController
 
   # POST /ajax/sum
   def aceptar_prestamo
-    puts "HOLAAA"
+    #    @prestamo = Loan.find_by(idPrestamo)
+
     num1 = params["num1"].to_i
     num2 = params["num2"].to_i
     # Do something with input parameter and respond as JSON with the output

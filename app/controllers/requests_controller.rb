@@ -1,5 +1,35 @@
 class RequestsController < ApplicationController
-  before_action :set_request, only: %i[ show edit update destroy ]
+  before_action :set_request, only: %i[ show edit update destroy approve getNumAleatorio ]
+
+
+  def get_num
+    "PRUEBA"
+  end
+
+  def approve
+    @request = Request.find(params[:id])
+
+    if @request.tipo == 0
+      @request.update_attribute(:solved, 1)
+      @id_cuenta = @request.account_id
+      @card = Card.new
+      @card = Card.create(number: get_num(), account_id: @id_cuenta, fecha: "09/33", tipo: "VISA", cvv:"094")
+    end
+    if @request.tipo == 1
+      @request.update_attribute(:solved, 1)
+      @id_cuenta = @request.account_id
+      @id_prestamo = @request.id_objetivo
+      @loan = Loan.find(@id_prestamo)
+      @loan.update(account_id: @id_cuenta)
+      @cuenta = Account.find(@id_cuenta)
+      @saldo_anterior = @cuenta.amount
+      @cuenta.update(amount: @saldo_anterior + @loan.amount)
+    end
+
+    redirect_to paginicio_index_path
+  end
+
+
 
   # GET /requests or /requests.json
   def index
@@ -74,5 +104,10 @@ class RequestsController < ApplicationController
     # Only allow a list of trusted parameters through.
     def request_params
       params.require(:request).permit(:id_objetivo, :tipo, :solved, :account_id)
+    end
+
+    # Only allow a list of trusted parameters through.
+    def card_params
+      params.permit(:number, :account_id, :fecha, :tipo, :cvv)
     end
 end
