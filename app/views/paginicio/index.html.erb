@@ -36,9 +36,9 @@
               <% @account = Account.find(request.account_id)%>
             <tr>
               <td><%= @account.name %></td>
-              <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' }%></td>
-<!--              <td><%#= link_to 'Edit', edit_request_path(request) %></td>-->
-              <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' } %></td>
+              <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: '¿Seguro que quieres aceptar la creación de la tarjeta?' } %></td>
+              <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: '¿Seguro que quieres rechazar la creación de la tarjeta?' }%></td>
+
             </tr>
             <% end %>
           <% end %>
@@ -72,8 +72,8 @@
                 <td><%= @loan.meses %></td>
                 <td><%= @loan.interes %></td>
                 <td><%= @loan.concepto %></td>
-                <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: 'Proceed?' } %></td>
-                <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' } %></td>
+                <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: '¿Seguro que quieres conceder el préstamo?' } %></td>
+                <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: '¿Seguro que quieres denegar el préstamo?' } %></td>
                 <!--
 <td><%#= link_to 'Destroy', request, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
               </tr>

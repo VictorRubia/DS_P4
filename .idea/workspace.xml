@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añadido aceptar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/requests_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
-    <list id="082c3edd-12e5-4f14-9b9c-3292a8ce7746" name="Changes by victo" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
-    </list>
+    <list id="082c3edd-12e5-4f14-9b9c-3292a8ce7746" name="Changes by victo" comment="Changes by victo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,30 +30,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/app/controllers/accounts_controller.rb">
-      <ranges>
-        <range start1="36" end1="48" start2="36" end2="44" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="50" end1="50" start2="46" end2="60" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="51" end1="52" start2="61" end2="62" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
-        <range start1="61" end1="62" start2="71" end2="72" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="64" end1="65" start2="74" end2="74" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="73" end1="73" start2="82" end2="84" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/app/views/paginicio/index.html.erb">
-      <ranges>
-        <range start1="25" end1="27" start2="25" end2="26" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
-        <range start1="32" end1="32" start2="31" end2="32" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="35" end1="36" start2="35" end2="36" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="37" end1="39" start2="37" end2="38" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="53" end1="55" start2="52" end2="57" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
-        <range start1="63" end1="63" start2="65" end2="67" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="65" end1="67" start2="69" end2="74" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
-        <range start1="69" end1="70" start2="76" end2="78" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
-      </ranges>
-    </file>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -271,6 +241,7 @@
       <workItem from="1622748862620" duration="1762000" />
       <workItem from="1622795857502" duration="4455000" />
       <workItem from="1622804138884" duration="11930000" />
+      <workItem from="1622906299583" duration="1200000" />
     </task>
     <task id="LOCAL-00019" summary="Añado api update accounts">
       <created>1621931077667</created>
@@ -656,6 +627,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Añadido aceptar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DS_P4@Development__DS_P4.rcov" NAME="Development: DS_P4 Coverage Results" MODIFIED="1622892936795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DS_P4" />
+    <SUITE FILE_PATH="coverage/DS_P4@Development__DS_P4.rcov" NAME="Development: DS_P4 Coverage Results" MODIFIED="1622906328263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DS_P4" />
   </component>
 </project>
