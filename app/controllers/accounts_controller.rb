@@ -44,7 +44,7 @@ class AccountsController < ApplicationController
 
   def get_fecha
     @numero1 = (rand*12 + 1).to_i
-    @numero2 = (rand*35 + 22).to_i
+    @numero2 = rand(22..35).to_i
     @numero_tarjeta = @numero1.to_s + "/" + @numero2.to_s
   end
 
@@ -66,6 +66,10 @@ class AccountsController < ApplicationController
 
   # POST /accounts or /accounts.json
   def create
+    #account_params[:iban] = "12345678"
+    #account_params.update_attribute(:iban, "probandooo")
+    #puts account_params[:iban]
+
     @account = Account.new(account_params)
 
     respond_to do |format|

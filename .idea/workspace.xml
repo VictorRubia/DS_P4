@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añadido aceptar">
-      <change beforePath="$PROJECT_DIR$/.idea/DS_P4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DS_P4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/requests_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/accounts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accounts/_form.html.erb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
+    <list id="082c3edd-12e5-4f14-9b9c-3292a8ce7746" name="Changes by victo" comment="">
+      <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +33,17 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/app/controllers/accounts_controller.rb">
+      <ranges>
+        <range start1="35" end1="35" start2="35" end2="45" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="41" end1="42" start2="51" end2="52" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="46" end1="47" start2="56" end2="57" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
+        <range start1="68" end1="68" start2="78" end2="82" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
+        <range start1="69" end1="69" start2="83" end2="85" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+      </ranges>
+    </file>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -243,14 +254,7 @@
       <workItem from="1622747290182" duration="13000" />
       <workItem from="1622748862620" duration="1762000" />
       <workItem from="1622795857502" duration="4455000" />
-      <workItem from="1622804138884" duration="8874000" />
-    </task>
-    <task id="LOCAL-00017" summary="Añado concepto a loans">
-      <created>1621887519299</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1621887519299</updated>
+      <workItem from="1622804138884" duration="10417000" />
     </task>
     <task id="LOCAL-00018" summary="Añado a la api las demas clases">
       <created>1621888824722</created>
@@ -588,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622800170694</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Añadido aceptar">
+      <created>1622891931147</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1622891931147</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,6 +640,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Añadido aceptar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DS_P4@Development__DS_P4.rcov" NAME="Development: DS_P4 Coverage Results" MODIFIED="1622804382650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DS_P4" />
+    <SUITE FILE_PATH="coverage/DS_P4@Development__DS_P4.rcov" NAME="Development: DS_P4 Coverage Results" MODIFIED="1622892936795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DS_P4" />
   </component>
 </project>
