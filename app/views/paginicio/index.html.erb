@@ -37,8 +37,8 @@
             <tr>
               <td><%= request.id_objetivo %></td>
               <td><%= request.account_id %></td>
-              <td><%= link_to 'Rechazar', paginicio_index_path %></td>
-              <td><%= link_to 'Edit', edit_request_path(request) %></td>
+              <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' }%></td>
+<!--              <td><%#= link_to 'Edit', edit_request_path(request) %></td>-->
               <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' } %></td>
             </tr>
             <% end %>
@@ -66,7 +66,7 @@
                 <td><%= request.id_objetivo %></td>
                 <td><%= request.account_id %></td>
                 <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: 'Proceed?' } %></td>
-                <td><%= link_to 'Rechazar', paginicio_index_path %></td>
+                <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' } %></td>
 <!--                <td><%#= link_to 'Destroy', request, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
               </tr>
             <% end %>

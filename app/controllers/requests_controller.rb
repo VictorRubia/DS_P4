@@ -14,6 +14,7 @@ class RequestsController < ApplicationController
       @id_cuenta = @request.account_id
       @card = Card.new
       @card = Card.create(number: get_num(), account_id: @id_cuenta, fecha: "09/33", tipo: "VISA", cvv:"094")
+      @request.update_attribute(:id_objetivo, @card.id)
     end
     if @request.tipo == 1
       @request.update_attribute(:solved, 1)
@@ -24,6 +25,20 @@ class RequestsController < ApplicationController
       @cuenta = Account.find(@id_cuenta)
       @saldo_anterior = @cuenta.amount
       @cuenta.update(amount: @saldo_anterior + @loan.amount)
+      @transaccion = Transaction.new
+      @transaccion = Transaction.create(amount: @loan.amount, account_id: @id_cuenta, concepto: "Prestamo")
+    end
+
+    redirect_to paginicio_index_path
+  end
+
+  def deny
+    @request = Request.find(params[:id])
+    @request.update_attribute(:solved, -1)
+
+    if(@request.tipo == 1)
+      @prestamo = Loan.find(@request.id_objetivo)
+      @prestamo.destroy
     end
 
     redirect_to paginicio_index_path
@@ -62,15 +77,6 @@ class RequestsController < ApplicationController
         format.json { render json: @request.errors, status: :unprocessable_entity }
       end
     end
-  end
-
-  helper_method :aceptar
-
-  def aceptar
-
-    @request.solved = 1
-
-
   end
 
   # PATCH/PUT /requests/1 or /requests/1.json

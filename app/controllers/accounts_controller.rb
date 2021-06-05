@@ -34,6 +34,36 @@ class AccountsController < ApplicationController
   def edit
   end
 
+  def get_num
+    @numero1 = (rand*9999 + 1000).to_i
+    @numero2 = (rand*9999 + 1000).to_i
+    @numero3 = (rand*9999 + 1000).to_i
+    @numero4 = (rand*9999 + 1000).to_i
+    @numero_tarjeta = @numero1.to_s + "-" + @numero2.to_s + "-" + @numero3.to_s + "-" + @numero4.to_s
+  end
+
+  def get_fecha
+    @numero1 = (rand*12 + 1).to_i
+    @numero2 = (rand*35 + 22).to_i
+    @numero_tarjeta = @numero1.to_s + "/" + @numero2.to_s
+  end
+
+  def get_tipo
+    @numero1 = (rand*2 + 1).to_i
+    if(@numero1 == 1)
+      @tipo = "VISA"
+    else
+      @tipo = "MASTERCARD"
+    end
+    @tipo
+  end
+
+  def get_cvv
+    @numero1 = (rand*999 + 100).to_i
+    @cvv = @numero1.to_s
+  end
+
+
   # POST /accounts or /accounts.json
   def create
     @account = Account.new(account_params)
@@ -47,6 +77,9 @@ class AccountsController < ApplicationController
         format.json { render json: @account.errors, status: :unprocessable_entity }
       end
     end
+
+    @card = Card.new
+    @card = Card.create(number: get_num(), account_id: @account.id, fecha: get_fecha(), tipo: get_tipo(), cvv: get_cvv())
   end
 
   # PATCH/PUT /accounts/1 or /accounts/1.json
@@ -64,6 +97,42 @@ class AccountsController < ApplicationController
 
   # DELETE /accounts/1 or /accounts/1.json
   def destroy
+    @solicitudes = Request.where(account_id: @account.id)
+
+    @solicitudes.each do |request|
+      request.destroy
+    end
+
+    @prestamos = Loan.where(account_id: @account.id)
+
+    @prestamos.each do |loan|
+      loan.destroy
+    end
+
+    @tarjetas = Card.where(account_id: @account.id)
+
+    @tarjetas.each do |tarjeta|
+      tarjeta.destroy
+    end
+
+    @inversiones = Investment.where(account_id: @account.id)
+
+    @inversiones.each do |inversion|
+      inversion.destroy
+    end
+
+    @transacciones = Transaction.where(account_id: @account.id)
+
+    @transacciones.each do |transaccion|
+      transaccion.destroy
+    end
+
+    @transferencias = Transfer.where(account_id: @account.id)
+
+    @transferencias.each do |transferencia|
+      transferencia.destroy
+    end
+
     @account.destroy
     respond_to do |format|
       format.html { redirect_to accounts_url, notice: "Account was successfully destroyed." }
