@@ -29,13 +29,13 @@
           </thead>
 
           <tbody>
+
           <% @requests = Request.all%>
           <% @requests.each do |request| %>
             <% if request.tipo == 0 &&  request.solved == 0 %>
-
+              <% @account = Account.find(request.account_id)%>
             <tr>
-              <td><%= request.id_objetivo %></td>
-              <td><%= request.account_id %></td>
+              <td><%= @account.name %></td>
               <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' }%></td>
 <!--              <td><%#= link_to 'Edit', edit_request_path(request) %></td>-->
               <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' } %></td>
@@ -63,6 +63,8 @@
           <% @requests = Request.all%>
           <% @requests.each do |request| %>
             <% if request.tipo == 1 &&  request.solved == 0 %>
+              <% @loan = Loan.find(request.id_objetivo)%>
+              <% @account = Account.find(request.account_id)%>
 
               <tr>
                 <td><%= @account.name %></td>

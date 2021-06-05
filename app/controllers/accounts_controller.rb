@@ -34,16 +34,26 @@ class AccountsController < ApplicationController
   def edit
   end
 
+  def get_iban
+    @numero1 = rand(1000..9999).to_i
+    @numero2 = rand(1000..9999).to_i
+    @numero3 = rand(1000..9999).to_i
+    @numero4 = rand(1000..9999).to_i
+    @numero5 = rand(1000..9999).to_i
+    @numero6 = rand(10..99).to_i
+    @iban = "ES"+ @numero1.to_s + @numero2.to_s + @numero3.to_s + @numero4.to_s + @numero5.to_s + @numero6.to_s
+  end
+
   def get_num
-    @numero1 = (rand*9999 + 1000).to_i
-    @numero2 = (rand*9999 + 1000).to_i
-    @numero3 = (rand*9999 + 1000).to_i
-    @numero4 = (rand*9999 + 1000).to_i
-    @numero_tarjeta = @numero1.to_s + "-" + @numero2.to_s + "-" + @numero3.to_s + "-" + @numero4.to_s
+    @numero1 = rand(1000..9999).to_i
+    @numero2 = rand(1000..9999).to_i
+    @numero3 = rand(1000..9999).to_i
+    @numero4 = rand(1000..9999).to_i
+    @numero_tarjeta = @numero1.to_s + @numero2.to_s + @numero3.to_s + @numero4.to_s
   end
 
   def get_fecha
-    @numero1 = (rand*12 + 1).to_i
+    @numero1 = rand(1..12).to_i
     @numero2 = rand(22..35).to_i
     @numero_tarjeta = @numero1.to_s + "/" + @numero2.to_s
   end
@@ -59,10 +69,9 @@ class AccountsController < ApplicationController
   end
 
   def get_cvv
-    @numero1 = (rand*999 + 100).to_i
+    @numero1 = rand(100..999).to_i
     @cvv = @numero1.to_s
   end
-
 
   # POST /accounts or /accounts.json
   def create
@@ -71,6 +80,8 @@ class AccountsController < ApplicationController
     #puts account_params[:iban]
 
     @account = Account.new(account_params)
+
+    @account.update_attribute(:iban, get_iban())
 
     respond_to do |format|
       if @account.save
