@@ -49,7 +49,7 @@ class AccountsController < ApplicationController
   end
 
   def get_tipo
-    @numero1 = (rand*2 + 1).to_i
+    @numero1 = rand(1..2).to_i
     if(@numero1 == 1)
       @tipo = "VISA"
     else

@@ -3,7 +3,32 @@ class RequestsController < ApplicationController
 
 
   def get_num
-    "PRUEBA"
+    @numero1 = rand(1000..9999).to_i
+    @numero2 = rand(1000..9999).to_i
+    @numero3 = rand(1000..9999).to_i
+    @numero4 = rand(1000..9999).to_i
+    @numero_tarjeta = @numero1.to_s + @numero2.to_s + @numero3.to_s + @numero4.to_s
+  end
+
+  def get_fecha
+    @numero1 = rand(1..12).to_i
+    @numero2 = rand(22..35).to_i
+    @numero_tarjeta = @numero1.to_s + "/" + @numero2.to_s
+  end
+
+  def get_tipo
+    @numero1 = rand(1..2).to_i
+    if(@numero1 == 1)
+      @tipo = "VISA"
+    else
+      @tipo = "MASTERCARD"
+    end
+    @tipo
+  end
+
+  def get_cvv
+    @numero1 = rand(100..999).to_i
+    @cvv = @numero1.to_s
   end
 
   def approve
@@ -13,7 +38,7 @@ class RequestsController < ApplicationController
       @request.update_attribute(:solved, 1)
       @id_cuenta = @request.account_id
       @card = Card.new
-      @card = Card.create(number: get_num(), account_id: @id_cuenta, fecha: "09/33", tipo: "VISA", cvv:"094")
+      @card = Card.create(number: get_num(), account_id: @id_cuenta, fecha: get_fecha(), tipo: get_tipo(), cvv: get_cvv())
       @request.update_attribute(:id_objetivo, @card.id)
     end
     if @request.tipo == 1

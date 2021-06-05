@@ -23,8 +23,7 @@
         <table>
           <thead>
           <tr>
-            <th>Id Objetivo</th>
-            <th>Id Cuenta</th>
+            <th>Cliente</th>
             <th colspan="3"></th>
           </tr>
           </thead>
@@ -51,8 +50,11 @@
         <table>
           <thead>
           <tr>
-            <th>Id Request</th>
-            <th>Id Cuenta</th>
+            <th>Cliente</th>
+            <th>Cantidad</th>
+            <th>Meses</th>
+            <th>Interes</th>
+            <th>Concepto</th>
             <th colspan="3"></th>
           </tr>
           </thead>
@@ -63,11 +65,15 @@
             <% if request.tipo == 1 &&  request.solved == 0 %>
 
               <tr>
-                <td><%= request.id_objetivo %></td>
-                <td><%= request.account_id %></td>
+                <td><%= @account.name %></td>
+                <td><%= @loan.amount %></td>
+                <td><%= @loan.meses %></td>
+                <td><%= @loan.interes %></td>
+                <td><%= @loan.concepto %></td>
                 <td><%= link_to 'Aceptar', approve_request_path(request), method: :put, data: { confirm: 'Proceed?' } %></td>
                 <td><%= link_to 'Rechazar', deny_request_path(request), method: :put, data: { confirm: 'This agency will not be  allowed to make requests. Proceed?' } %></td>
-<!--                <td><%#= link_to 'Destroy', request, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
+                <!--
+<td><%#= link_to 'Destroy', request, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
               </tr>
             <% end %>
           <% end %>

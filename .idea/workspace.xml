@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añadido aceptar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/accounts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/accounts/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/requests_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
     </list>
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
     <list id="082c3edd-12e5-4f14-9b9c-3292a8ce7746" name="Changes by victo" comment="">
       <change beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +40,24 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/app/controllers/accounts_controller.rb">
       <ranges>
-        <range start1="35" end1="35" start2="35" end2="45" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="41" end1="42" start2="51" end2="52" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
-        <range start1="46" end1="47" start2="56" end2="57" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
-        <range start1="68" end1="68" start2="78" end2="82" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
-        <range start1="69" end1="69" start2="83" end2="85" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="36" end1="48" start2="36" end2="44" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="50" end1="50" start2="46" end2="60" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="51" end1="52" start2="61" end2="62" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
+        <range start1="61" end1="62" start2="71" end2="72" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="64" end1="65" start2="74" end2="74" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="73" end1="73" start2="82" end2="84" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/app/views/paginicio/index.html.erb">
+      <ranges>
+        <range start1="25" end1="27" start2="25" end2="26" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
+        <range start1="32" end1="32" start2="31" end2="32" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="35" end1="36" start2="35" end2="36" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="37" end1="39" start2="37" end2="38" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="53" end1="55" start2="52" end2="57" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
+        <range start1="63" end1="63" start2="65" end2="67" changelist="082c3edd-12e5-4f14-9b9c-3292a8ce7746" />
+        <range start1="65" end1="67" start2="69" end2="74" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
+        <range start1="69" end1="70" start2="76" end2="78" changelist="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" />
       </ranges>
     </file>
   </component>
@@ -254,14 +270,7 @@
       <workItem from="1622747290182" duration="13000" />
       <workItem from="1622748862620" duration="1762000" />
       <workItem from="1622795857502" duration="4455000" />
-      <workItem from="1622804138884" duration="10417000" />
-    </task>
-    <task id="LOCAL-00018" summary="Añado a la api las demas clases">
-      <created>1621888824722</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1621888824722</updated>
+      <workItem from="1622804138884" duration="11930000" />
     </task>
     <task id="LOCAL-00019" summary="Añado api update accounts">
       <created>1621931077667</created>
@@ -599,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622891931147</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Añadido aceptar">
+      <created>1622893636335</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1622893636335</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
