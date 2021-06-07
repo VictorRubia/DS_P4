@@ -304,14 +304,7 @@
       <workItem from="1622906299583" duration="1200000" />
       <workItem from="1623058273110" duration="6155000" />
       <workItem from="1623077937088" duration="8000" />
-      <workItem from="1623078167813" duration="222000" />
-    </task>
-    <task id="LOCAL-00022" summary="Añado api update accounts">
-      <created>1621932391399</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1621932391399</updated>
+      <workItem from="1623078167813" duration="281000" />
     </task>
     <task id="LOCAL-00023" summary="Añado api update accounts">
       <created>1621933007314</created>
@@ -649,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623078325655</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Añadido logo para descargar la app">
+      <created>1623078394927</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1623078394927</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
