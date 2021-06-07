@@ -9,7 +9,7 @@ one:
   amount: 9.99
 
 two:
-  name: MyString
+  name: MyString2
   dni: MyString
   password: MyString
   nomina: 9.99
