@@ -5,40 +5,11 @@ class LoansControllerTest < ActionDispatch::IntegrationTest
     @loan = loans(:one)
   end
 
-  test "should get index" do
-    get loans_url
-    assert_response :success
-  end
-
-  test "should get new" do
-    get new_loan_url
-    assert_response :success
-  end
-
-  test "should create loan" do
-    assert_difference('Loan.count') do
-      post loans_url, params: { loan: { account_id: @loan.account_id, amount: @loan.amount, interes: @loan.interes, meses: @loan.meses } }
+  test "Cuando gestionamos un prestamo este debe borrarese de prestamos pendientes y añadirse en los movimientos" do
+    assert_difference('Transaction.count') do
+      post transactions_url, params: { transaction: { account_id: @loan.account_id, amount: @loan.amount } }
     end
-
-    assert_redirected_to loan_url(Loan.last)
-  end
-
-  test "should show loan" do
-    get loan_url(@loan)
-    assert_response :success
-  end
-
-  test "should get edit" do
-    get edit_loan_url(@loan)
-    assert_response :success
-  end
-
-  test "should update loan" do
-    patch loan_url(@loan), params: { loan: { account_id: @loan.account_id, amount: @loan.amount, interes: @loan.interes, meses: @loan.meses } }
-    assert_redirected_to loan_url(@loan)
-  end
-
-  test "should destroy loan" do
+    assert_redirected_to transaction_url(Transaction.last)
     assert_difference('Loan.count', -1) do
       delete loan_url(@loan)
     end
