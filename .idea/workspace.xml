@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añadido logo para descargar la app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
     </list>
     <list id="08a3511a-49ee-45f2-91c3-e747745a948d" name="Changes by claudiasalado" comment="" />
@@ -304,14 +305,7 @@
       <workItem from="1622906299583" duration="1200000" />
       <workItem from="1623058273110" duration="6155000" />
       <workItem from="1623077937088" duration="8000" />
-      <workItem from="1623078167813" duration="281000" />
-    </task>
-    <task id="LOCAL-00023" summary="Añado api update accounts">
-      <created>1621933007314</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1621933007314</updated>
+      <workItem from="1623078167813" duration="343000" />
     </task>
     <task id="LOCAL-00024" summary="Añado api update accounts">
       <created>1621933490450</created>
@@ -649,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623078394927</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Añadido logo para descargar la app">
+      <created>1623078454960</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1623078454960</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
