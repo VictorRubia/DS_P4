@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Tests">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/badge.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/accounts_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/accounts_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/card_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/card_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
     </list>
     <list id="08a3511a-49ee-45f2-91c3-e747745a948d" name="Changes by claudiasalado" comment="" />
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
@@ -72,11 +69,11 @@
       <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\app\assets\images" />
       <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\public" />
       <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\app\models" />
       <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\app\controllers\api\v1" />
       <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\app\controllers" />
-      <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\app" />
     </key>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_the_truth">
@@ -307,14 +304,9 @@
       <workItem from="1622795857502" duration="4455000" />
       <workItem from="1622804138884" duration="11930000" />
       <workItem from="1622906299583" duration="1200000" />
-      <workItem from="1623058273110" duration="6119000" />
-    </task>
-    <task id="LOCAL-00020" summary="Añado api update accounts">
-      <created>1621932173120</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1621932173120</updated>
+      <workItem from="1623058273110" duration="6155000" />
+      <workItem from="1623077937088" duration="8000" />
+      <workItem from="1623078167813" duration="139000" />
     </task>
     <task id="LOCAL-00021" summary="Añado api update accounts">
       <created>1621932351997</created>
@@ -652,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623061235794</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Tests">
+      <created>1623064853896</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1623064853896</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
