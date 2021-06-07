@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95d858d-a1e0-4a32-aa76-d1ba775a45c5" name="Default Changelist" comment="Añadido logo para descargar la app">
+      <change afterPath="$PROJECT_DIR$/app-release.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/paginicio_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/paginicio_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paginicio/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <list id="08a3511a-49ee-45f2-91c3-e747745a948d" name="Changes by claudiasalado" comment="" />
     <list id="9cc5da89-1f6b-45ca-80cc-8236fafecc01" name="Changes by jesus" comment="" />
@@ -55,17 +58,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm" value="WSL" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DS_P4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/views/paginicio" />
       <recent name="$PROJECT_DIR$/app/views/homepage" />
       <recent name="$PROJECT_DIR$/app/views/login" />
-      <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\app\assets\images" />
@@ -75,7 +78,7 @@
       <recent name="C:\Users\victo\Google Drive\05_DS\Practicas\P4\DS_P4\app\controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_the_truth">
+  <component name="RunManager" selected="Rails.Development: DS_P4">
     <configuration name="Development" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -305,14 +308,7 @@
       <workItem from="1622906299583" duration="1200000" />
       <workItem from="1623058273110" duration="6155000" />
       <workItem from="1623077937088" duration="8000" />
-      <workItem from="1623078167813" duration="343000" />
-    </task>
-    <task id="LOCAL-00024" summary="Añado api update accounts">
-      <created>1621933490450</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1621933490450</updated>
+      <workItem from="1623078167813" duration="1140000" />
     </task>
     <task id="LOCAL-00025" summary="Añado api update accounts">
       <created>1621934837152</created>
@@ -650,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623078454960</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Añadido logo para descargar la app">
+      <created>1623078516336</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1623078516336</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

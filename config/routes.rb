@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'homepage/create'
   get 'login/new'
   get 'login/create'
+  get 'paginicio/download_apk'
   devise_for :users
   resources :transfers
   resources :employees
